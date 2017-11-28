@@ -6,7 +6,7 @@ Some of the following is opinionated. You should always ask your fellow colleagu
 
 Learning some bash is unfortunately still a necessity. It is the primary way in which we interact with a linux system. You will surely encounter bash scripts written by others, and need to modify them to suit your needs. 
 
-Your shell when you login is likely set to `/bin/bash`, and you can check by doing `echo $SHELL`. If it is not set to bash, you should ask [Sean](mailto:scaron@umich.edu) for help in changing it. 
+Your shell when you login is likely set to `/bin/bash`, and you can check by doing `echo $SHELL`. If it is not set to bash, you should ask [Sean](mailto:scaron@umich.edu) for help in changing it. Note that you do *not* need your shell to be set to bash to write bash scripts. Any script that you write that begins with the line `#!/bin/bash` will execute under the bash interpreter. 
 
 You don't need to dive too deeply into learning bash, however, as most of the time you will be able to write python scripts to do almost everything you would need to do. 
 
